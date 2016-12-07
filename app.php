@@ -1,8 +1,8 @@
-<?php
-require_once 'autoload.php';
+﻿<?php
+require_once 'autoload.php'; //подключаем файл с методами автозагрузки классов
 
 try{
-    App::init();
+    App::init();	//Запускаем статический метод init класса App. В соответствии с внутренними правилами имен находится в файле app.class.php
 }
 catch (PDOException $e){
     echo "DB is not available";

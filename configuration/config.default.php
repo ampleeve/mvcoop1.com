@@ -1,6 +1,8 @@
 <?php
-$config['db_user'] = 'test_user';
-$config['db_password'] = 'pass';
+// массив конфигурации
+
+$config['db_user'] = 'root';
+$config['db_password'] = '';
 $config['db_base'] = 'test2';
 $config['db_host'] = 'localhost';
 $config['db_charset'] = 'UTF-8';
